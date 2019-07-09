@@ -1,0 +1,14 @@
+Package: yield
+Title: Estimate Yield of Selected HIV Testing Strategies
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Jessie",
+           family = "Edwards",
+           role = c("aut", "cre"),
+           email = "jessedwards@unc.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Estimates the proportion of people expected to test positive for HIV under various testing strategies
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000

@@ -65,7 +65,6 @@ yieldstrategy <- function(data, y, strategyind, strata = NULL, weight = "No Weig
 #' @examples
 #' calcyield(data = mydata, y = "hiv", strategies = c("str1", "str2", "str3"), stratlabels = c("All venues", "Some other strategy", "Another one"), weight="weight", cluster = "sitespotid")
 
-
 calcyield<- function(data, y, strategies,  weight = "No Weights", cluster = "No Clusters", stratlabels = NULL){
 
    num <- length(strategies)
@@ -84,7 +83,6 @@ calcyield<- function(data, y, strategies,  weight = "No Weights", cluster = "No 
   res2 <- res2[, c(7, 1, 2, 3, 4, 5, 6)]
   return(res2)
 }
-
 
 #' A function to plot expeceted HIV testing yield by strategy
 #'

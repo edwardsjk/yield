@@ -27,3 +27,7 @@ All functions require inputting a dataset with one record per participant *not p
 `calcyield` returns a dataframe with one row per candidate strategy listing HIV testing yield and the expected number needed to test to identify 1 new case of HIV.
 
 `plotyield` produces a forest plot of results.
+
+## Use
+
+A `shiny` app implementing this package using point-and-click interface is available at https://edwardsjk.shinyapps.io/yieldapp/ (under development, use with caution)

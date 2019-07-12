@@ -26,7 +26,7 @@ yieldstrategy <- function(data, y, strategyind, strata = NULL, weight = "No Weig
   if(!is.null(strata)) dat$x <- data[,strata]
   if(weight == "No Weights") dat$weight <- rep(1, nrow(dat))
   if(weight != "No Weights") dat$weight <- data[ ,weight]
-  if(!is.null(cluster) == 1) dat$cluster <- data[, cluster]
+  if(cluster != "No Clusters") dat$cluster <- data[, cluster]
   dat <- dat[dat$str == 1, ]
  # cl <- ifelse(is.na(cluster), paste0(1), paste0("cluster"))
   if(cluster == "No Clusters") {

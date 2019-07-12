@@ -51,8 +51,6 @@ yieldstrategy <- function(data, y, strategyind, strata = NULL, weight = "No Weig
   return(results)
 }
 
-
-
 #' Estimate HIV testing yield under a number of strategies
 #'
 #' This function summarizes results across multiple strategies
@@ -95,7 +93,6 @@ calcyield<- function(data, y, strategies,  weight = "No Weights", cluster = "No 
 #' @export
 #' @examples
 #' plotyield(allresults)
-#'
 
 plotyield <- function(results){
   require(ggplot2)

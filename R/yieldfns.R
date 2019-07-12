@@ -86,7 +86,7 @@ calcyield<- function(data, y, strategies,  weight = "No Weights", cluster = "No 
   res2 <- res2[, c(7, 1, 2, 3, 4, 5, 6)]
   return(res2)
 }
-#res
+
 
 #' A function to plot expeceted HIV testing yield by strategy
 #'
@@ -95,8 +95,10 @@ calcyield<- function(data, y, strategies,  weight = "No Weights", cluster = "No 
 #' @export
 #' @examples
 #' plotyield(allresults)
-require(ggplot2)
+#'
+
 plotyield <- function(results){
+  require(ggplot2)
   res <- results# as.data.frame(results)
   #res$label <- row.names(results)
   res$nntr <- round(res$NNT)

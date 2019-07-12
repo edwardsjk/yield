@@ -12,9 +12,9 @@ calcyield(data, y, strategies, weight = "No Weights",
 
 \item{y}{indicator that HIV test is positive}
 
-\item{weight}{name of weight variable}
+\item{weight}{name of weight variable, defaults to "No Weights"}
 
-\item{cluster}{name of variable indicating clusters}
+\item{cluster}{name of variable indicating clusters, defaults to "No Clusters"}
 
 \item{stratlabels}{optional vector of strategy labels to improve readability}
 

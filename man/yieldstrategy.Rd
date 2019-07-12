@@ -10,15 +10,15 @@ yieldstrategy(data, y, strategyind, strata = NULL,
 \arguments{
 \item{data}{Input dataset with one record per individual not previously diagnosed with HIV}
 
-\item{y}{vector of indicator that HIV test is positive}
+\item{y}{name of variable with indicator that HIV test is positive}
 
-\item{strategyind}{vector indicating whether or not a specific person would be tested under a given strategy}
+\item{strategyind}{name of variable  indicating whether or not a specific person would be tested under a given strategy}
 
-\item{strata}{vector of values of variable to be stratified by (defaults to NULL)}
+\item{strata}{name of variable with values of variable to be stratified by (defaults to NULL)}
 
-\item{weight}{vector of respondent weights  (e.g., survey sampling weight), if applicable (defaults to NA)}
+\item{weight}{name of variable with respondent weights  (e.g., survey sampling weight), if applicable (defaults to NA)}
 
-\item{cluster}{vector of cluster IDs, if applicable (defaults to NULL)}
+\item{cluster}{name of variable with cluster IDs, if applicable (defaults to NULL)}
 }
 \description{
 This function computes HIV testing yield for a specific strategy
